@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/birthday-buddy/static/css/main.34131579.css",
-    "main.js": "/birthday-buddy/static/js/main.6167dcbc.js",
-    "index.html": "/birthday-buddy/index.html",
-    "main.34131579.css.map": "/birthday-buddy/static/css/main.34131579.css.map",
-    "main.6167dcbc.js.map": "/birthday-buddy/static/js/main.6167dcbc.js.map"
+    "main.css": "/birthday_buddy/static/css/main.34131579.css",
+    "main.js": "/birthday_buddy/static/js/main.6167dcbc.js",
+    "index.html": "/birthday_buddy/index.html",
+    "main.34131579.css.map": "/birthday_buddy/static/css/main.34131579.css.map",
+    "main.6167dcbc.js.map": "/birthday_buddy/static/js/main.6167dcbc.js.map"
   },
   "entrypoints": [
     "static/css/main.34131579.css",
