@@ -9,6 +9,9 @@ const App = () => {
       <section className="container">
         <h3>{people.length} birthdays today</h3>
         <List people={people} className="person__container" />
+        <button className="btn" onClick={() => setPeople([])}>
+          clear all
+        </button>
       </section>
     </div>
   );

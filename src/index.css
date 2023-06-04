@@ -17,8 +17,26 @@
   background-color: white;
   text-align: center;
   width: 40%;
+  border-radius: 20px;
 }
 .container h3 {
+  padding-top: 1rem;
   font-size: 2rem;
   font-weight: 300;
+}
+.btn{
+  width: 90%;
+  padding: .5rem .5rem;
+  border-radius: 20px;
+  background-color: rgb(30, 30, 210);
+  color: white;
+  border: none;
+  margin: 1rem ;
+  transition: all ease .5s;
+}
+
+.btn:hover{
+  background-color: red;
+  width: 30%;
+  color: white;
 }
