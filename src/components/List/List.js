@@ -1,13 +1,13 @@
 import React from "react";
 import Person from "./../Person/Person";
-
-const List = (people) => {
+import './list.css'
+const List = (props) => {
   return (
-    <>
-      {people.map((person) => {
+    <div className="list">
+      {props.people.map((person) => {
         return <Person key={person.id} {...person} />;
       })}
-    </>
+    </div>
   );
 };
 export default List;
