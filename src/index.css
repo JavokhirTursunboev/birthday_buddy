@@ -3,43 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(168, 203, 234);
+}
 
 .app {
-  
-  width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aliceblue;
-}
-.container {
-  margin-top: 1rem;
-  background-color: white;
-  text-align: center;
-  width: 300px;
-  max-width: 600px;
-  border-radius: 20px;
-}
-.container h3 {
-  padding-top: 1rem;
-  font-size: 2rem;
-  font-weight: 300;
-}
-.btn{
-  width: 90%;
-  padding: .5rem .5rem;
-  border-radius: 20px;
-  background-color: rgb(30, 30, 210);
-  color: white;
-  border: none;
-  margin: 1rem ;
-  transition: all ease .5s;
 }
 
+.container {
+  width: 80vh;
+  max-width: 600px;
+  margin: 5rem 0;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+}
+.container h3 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.btn {
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: aqua;
+  margin: 0 3rem;
+  transition: all ease 0.5s;
+}
 .btn:hover{
   background-color: red;
-  width: 30%;
   color: white;
 }
